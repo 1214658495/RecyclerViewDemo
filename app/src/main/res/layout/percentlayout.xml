@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_ijk1"
+        app:layout_widthPercent = "100%"
+        app:layout_heightPercent = "31%"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_below="@+id/iv_ijk1"
+        app:layout_widthPercent = "100%"
+        app:layout_heightPercent = "69%"
+        android:background="#ffffff">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_menu"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="13%"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/simicircle"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="41px"
+            android:layout_marginLeft="134px"
+            android:src="@mipmap/icon_album" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="85px"
+            android:layout_marginLeft="87px"
+            android:src="@mipmap/icon_takephoto" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="114px"
+            android:layout_marginLeft="82px"
+            android:src="@mipmap/icon_rec_on" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="77px"
+            android:layout_marginLeft="102px"
+            android:src="@mipmap/icon_mic_on" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="24px"
+            android:layout_marginLeft="99px"
+            android:src="@mipmap/icon_setting" />
+
+    </LinearLayout>
+
+</android.support.percent.PercentRelativeLayout>
